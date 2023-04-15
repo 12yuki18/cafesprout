@@ -665,5 +665,49 @@ input {
     #menu-btn-check:checked ~ .menu-content {
         left: 0;
     }
+
+
+    h2 {
+        font-size: 3em;
+    }
     
+    .whatwedo-p {
+        font-size: 1em;
+    }
+
+    .project-box > .project-p {
+        padding: 0 20px;
+    }
+
+    .project-p {
+        font-size: 1em;
+    }
+
+    .project-2 {
+        font-size: 2em;
+    }
+
+    .kindness-box > .kindness-p {
+        padding: 0 20px;
+    }
+
+    .kindness-p {
+        font-size: 1em;
+    }
+
+    .kindness-2 {
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 3em;
+    }
+
+    h5 {
+        font-size: 2em;
+    }
+
+    .shop-p {
+        font-size: 1em;
+    }
 }
