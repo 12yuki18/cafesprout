@@ -191,7 +191,12 @@
 
                 <section class="contact">
                 <h2 id="contact">CONTACT</h2>
-                    <form>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="text" name="honeypot" style="display:none">
+                    <input type="hidden" name="accessKey" value="cef17085-bdd2-4df7-a7a5-381ec1aafebc">
+                    <input type="hidden" name="subject" value="Webサイトからお問い合わせがありました" />
+                    <input type="hidden" name="replyTo" value="morikawa1218yuuki@gmail.com">
+                    <input type="hidden" name="redirectTo" value="">  
                         <div>
                             <div class="form">
                                 <label class="label">NAME</label>
